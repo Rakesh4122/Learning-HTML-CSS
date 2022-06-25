@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>rotate</title>
+	<style type="text/css">
+		body{
+			background-color: lightgreen;
+		}
+		.dv1{
+			background-color: grey;
+			height: 200px;
+			width: 200px;
+			border-top: 50px solid green;
+			border-left: 50px solid red;
+			border-bottom: 50px solid blue;
+			border-right: 50px solid pink;
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			top: 27%;
+			left: 37%;
+			transform: translate(-50%,-50%);
+			color: aqua;
+			animation: spin 2s infinite linear;
+		}
+
+		@keyframes spin{
+			0%{transform: rotate(0deg);}
+			100%{transform: rotate(360deg);}
+		}
+		span{
+				font-size: 40px;
+				font-weight: bold;
+				animation: spin1 2s infinite linear;
+		}
+		@keyframes spin1{
+			0%{transform: rotate(0deg);}
+			100%{transform: rotate(-720deg);}
+		}
+	
+	</style>
+</head>
+<body>
+	<div class="dv1">
+		<span>Rakesh</span>
+	</div>
+</body>
+</html>

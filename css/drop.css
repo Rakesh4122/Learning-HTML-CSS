@@ -1,0 +1,71 @@
+	.container{
+				list-style-type: none;
+				background-color: lightgrey;
+				border-radius: 24px;
+			}
+
+		 .nav{
+				display: inline-block;
+				padding: 25px 40px;
+				font-size: 20px;
+		}
+		.nav:hover{
+				background-color: lightgreen;
+				color: white;
+		}
+		.nav:hover .dropmenu{
+					display: block;
+		}
+		.dropmenu{
+				display: none;
+				position: absolute;
+				background-color: aqua;
+				margin-top: 25px;
+		}
+
+		.dropmenu .btn{
+					display: block;
+					text-decoration: none;
+					padding: 12px 18px;
+		}
+		.dropmenu .btn:hover{
+						background-color: grey;
+						color: white;
+		}
+		.nav:hover #dv1{
+					display: block;
+		}
+		#dv1{
+			background-color: rosybrown;
+			display: none;
+			position: absolute;
+			margin-top: 25px;
+		}
+		#dv1 .btn2{
+				display: block;
+				text-decoration: none;
+				padding: 18px 28px;
+		}
+
+		#dv1 .btn2:hover{
+				background-color:cornflowerblue;
+				color: coral;
+		}
+		.nav:hover #dv2{
+					display: block;
+		}
+		#dv2{
+			display: none;
+			background-color: rgb(136,122,143);
+			position: absolute;
+			margin-top: 25px;
+		}
+		#dv2 .btn3{
+				display: block;
+				text-decoration: none;
+				padding: 22px 34px;
+		}
+		#dv2 .btn3:hover{
+				background-color: tomato;
+				color: green;
+		}

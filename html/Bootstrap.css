@@ -1,0 +1,44 @@
+.container{
+	/*border: 5px solid black;*/
+}
+.row{
+	/*border: 3px solid red;*/
+}
+.col{
+	/*border: 3px solid green;*/
+}
+.col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+	/*border: 3px solid green;*/
+}
+body{
+	background-color: lightgreen;
+}
+
+#header{
+		background-color: yellow;
+		padding: 10px 20px;
+}
+#menu{
+	background-color: lightgrey;
+	padding: 15px 0px;
+}
+#menu ul{
+		list-style-type: none;
+		margin: 0px;
+}
+#menu ul a{
+	text-decoration: none;
+}
+#menu ul li{
+		display: inline-block;
+}
+#content{
+		background-color: white;
+}
+#sidebar{
+	background-color: pink;
+	
+}
+#footer{
+	background-color: yellow;
+}

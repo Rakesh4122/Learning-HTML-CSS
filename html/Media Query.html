@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>div</title>
+	<style type="text/css">
+		.dv1{
+			border: 1px solid #000;
+			height: 100px;
+			width: 49.5%;
+			float: left;
+			background-color: lightgrey;
+		}
+		.dv2{
+			border: 1px solid #000;
+			margin-left: 9px;
+			height: 100px;
+			width: 49.5%;
+			float: left;
+			background-color: lightgreen;
+
+		}
+		.div-box{
+			border: 1px solid #000;
+			height: 250px;
+			width: 100%;
+			margin-top: 10px;
+			float: left;
+			background-color: lightseagreen;
+		}
+		.dv3{
+			border: 1px solid #000;
+			height: 300px;
+			width: 300px;
+			float: left;
+			margin-top: 100px;
+			position: relative;
+			left: 40%;
+			transform: rotate(45deg);
+		}
+		@media screen and(max-width: 800px){
+			.dv1{
+				width: 100%;
+			}
+			.dv2{
+				width: 100%;
+				margin-left: 0px;
+				margin-top: 10px;
+			}
+			.dv3{
+				left: 18%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="dv1"></div>
+	<div class="dv2"></div>
+	<div class="div-box"></div>
+	<div class="div-box"></div>
+	<div class="dv3"></div>
+</body>
+</html>

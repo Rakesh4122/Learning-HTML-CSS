@@ -1,0 +1,41 @@
+		h1{
+			border: 2px solid black;
+			height: 100px;
+			padding-top: 40px;
+			width: 100%;
+			text-align: center;
+			color: white;
+			background-color: skyblue;
+			margin: 0px;
+		}
+		.tab{
+			border: 2px solid black;
+			height: 350px;
+			width: 250px;
+			float: left;
+			/*margin: 0px;*/
+		}	
+		p{		
+			border: 2px solid green;
+			height: 100px;
+			width: 100%;
+			padding-top: 20px;
+			text-align: center;
+			background-color: black;
+			color: white;
+			margin: 0px;
+		}
+
+		.cd{
+			background-color: red;
+		}
+		.cd1{
+			background-color: green;
+		}
+		.cd2{
+			background-color: grey;
+		}
+		.cd3{
+			background-color: hotpink;
+		}
+	

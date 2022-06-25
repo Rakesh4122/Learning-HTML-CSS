@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>entertainment list</title>
+	<style type="text/css">
+	/*	body{
+			margin: 0px;
+			padding: 0px;
+		}*/
+		.navbar{
+			background-color: blue;
+			list-style-type: none;
+			border-radius: 15px;
+		}
+		.hd{
+			display: inline-block;
+			padding: 18px 34px;
+			font-size: 25px;
+		}
+		.hd:hover{
+			background-color: lightgrey;
+			color: white;
+		}
+		.hd:hover .dropdown{
+				display: block;
+		}
+		.dropdown{
+				display: none;
+				position: absolute;
+				background-color: aqua;
+				margin-top:18px;
+		}
+		.dropdown .drdwn-btn{
+					display: block;
+					text-decoration: none;
+					padding: 14px 20px;
+		}
+		.drdwn-btn:hover{
+				background-color: lightseagreen;
+				color: hotpink;
+		}
+		.hd:hover .dropdown1{
+						display: block;
+		}
+		.dropdown1{
+				display: none;
+				position: absolute;
+				background-color: lightgreen;
+		}
+		.dropdown1 a{
+				display: block;
+				text-decoration: none;
+				padding: 8px 4px;
+		}
+		a:hover{
+			background-color: hotpink;
+			color: red;
+		}
+	
+	</style>
+</head>
+<body>
+		<ul class="navbar">
+			<li class="hd">Home</li>
+			<li class="hd">Categories
+			<div class="dropdown">
+				<a href="#" class="drdwn-btn">Gym</a>
+				<a href="#" class="drdwn-btn">School</a>
+				<a href="#" class="drdwn-btn">Sport</a>
+				<a href="#" class="drdwn-btn">Dance</a>
+			</div>
+		</li>
+			<li class="hd">About-Us
+				<div class="dropdown1">
+					<a href="#">I am a good boy.</a>
+					<a href="#">My qualification is B.C.A.</a>
+					<a href="#">We believe...We can...</a>
+					<a href="#">My hoby is do coding. </a>
+				</div>
+			</li>
+			<li class="hd">Contact-Us</li>
+			
+		</ul>
+</body>
+</html>
+

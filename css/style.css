@@ -1,0 +1,25 @@
+.div1{
+	height: 150px;
+	width: 150px;
+	border: 2px solid red;
+	float: bottom;
+	border-radius: 50%;
+	margin: 10px;
+	text-align: center;
+}
+#div2{
+	background-color: green;
+	border: 3px solid red;
+	height: 100px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 50%;
+	text-align:left;
+}
+#div2{
+	border: 4px solid black;
+	background-color: blue;	
+	width: 150px;
+	height: 100px;
+}
+

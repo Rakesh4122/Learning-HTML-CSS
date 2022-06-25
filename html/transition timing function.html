@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Transition timing function</title>
+	<style type="text/css">
+		div{
+			width: 150px;
+			height: 150px;
+			background-color: red;
+			transition: width 2s, height 2s, transform 2s; 
+			/*transition-delay: 1s;*/
+			
+		}
+		div:hover{
+			width: 250px;
+			height: 250px;
+			cursor: pointer;
+			transform: rotate(180deg);
+		}
+
+	</style>
+</head>
+<body>
+	<div>linear</div><br>
+	<div>ease</div><br>
+	<div>ease-in</div><br>
+	<div>ease-out</div><br>
+	<div>ease-in-out</div><br>
+</body>
+</html>

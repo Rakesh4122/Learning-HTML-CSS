@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Box model</title>
+	<style>
+	/*universal selector*/
+		*{
+		box-sizing: border-box;
+		margin: 0px;
+		padding: 0px;
+		}
+		body{
+			background-color: blue;
+		}
+		.container{
+			background-color: red;
+			border: 3px solid blue;
+
+			/*we can set padding for top,bottom,left, right like this*/
+			/*padding-top: 79px;
+			padding-bottom: 79px;
+			padding-left:25px;
+			padding-right: 79px;*/
+
+			/*margin-top: 32px;
+			margin-bottom: 25px;
+			margin-left: 18px;
+			margin-right:14px;*/
+
+			/*margin:: top right bottom left*/
+			/*padding:: top right bottom left*/
+			/*padding: 29px 56px 8px 43px;*/
+			/*margin: 29px 56px 8px 43px;*/
+
+			/*padding: y(top/bottom) x(left/right);*/
+			/*margin: y(top/bottom) x(left/right);*/
+			
+			padding: 30px 19px;
+			margin: 24px 19px;
+			border-radius: 14px;
+			width: 325px;
+			}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h3>This is my heading</h3>
+		<p id="first">We believe.. We can..</p>
+	</div>
+	<div class="container">
+		<h3>This is my heading</h3>
+		<p id="second">We believe.. We can..</p>
+	</div>
+	<div class="container">
+		<h3>This is my heading</h3>
+		<p id="third">We believe.. We can..</p>
+	</div>
+</body>
+</html>

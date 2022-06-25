@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>loader</title>
+	<style type="text/css">
+		.dv1{
+			height: 100px;
+			background-color: lightgreen;
+			text-align: center;
+			position: relative;
+			padding-top: 30px;
+		}
+
+		.dv1 span{
+			display: block;
+			height: 30px;
+			position: absolute;
+			margin-top: 70px;
+			/*padding: 8px;*/
+			width: 0%;
+			background-color: blue;
+			/*box-sizing: border-box;*/
+			transition: width 2s;
+		}
+		.dv1:hover span{
+				width: 100%;
+				
+		}
+		.dv1 h4{
+			font-size: 20px;
+			transition: font-size 1s;
+
+		}
+		.dv1:hover h4{
+			font-size: 30px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="dv1">
+		<span></span>
+		<h4>Home</h4>
+	</div>
+</body>
+</html>

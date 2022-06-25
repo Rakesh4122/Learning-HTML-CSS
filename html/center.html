@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>center</title>
+	<style type="text/css">
+		body{
+			background-color: lightpink;
+
+		}
+		.dv1{
+			height: 300px;
+			width: 300px;
+			border: 2px solid black;
+			display: flex; 
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background-color: lightgreen;
+			border-radius: 10px;
+		}
+		.dv2{
+			height: 200px;
+			width: 200px;
+			border: 2px solid black;
+			border-radius: 10px;
+			background-color: blue;
+			color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="dv1">
+		<div class="dv2"> Hello world</div>
+	</div>
+</body>
+</html>

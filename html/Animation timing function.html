@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css animation</title>
+	<style type="text/css">
+		div{
+			height: 100px;
+			width: 100px;
+			background-color: aqua;
+			font-size: 20px;
+			color: red;
+			position: relative;
+			animation: move 4s infinite;
+
+		}
+		.dv1{animation-timing-function: linear;}
+		.dv2{animation-timing-function: ease;}
+		.dv3{animation-timing-function: ease-in;}
+		.dv4{animation-timing-function: ease-out;}
+		.dv5{animation-timing-function: ease-in-out;}
+					
+
+		@keyframes move{
+			0%{left: 0px;}
+			100%{left: 400px;}
+
+		}
+	</style>
+</head>
+<body>
+	<div class="dv1">linear</div>
+	<div class="dv2">ease</div>
+	<div class="dv3">ease-in</div>
+	<div class="dv4">ease-out</div>
+	<div class="dv5">ease-in-out</div>
+</body>
+</html>

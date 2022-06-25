@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css navbar property</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+		}
+		.navbar{
+			list-style-type: none;
+			background-color: lightgrey;
+			border-radius: 20px;
+			margin: 0px;
+			padding: 0px;
+		}
+		.title{
+			display: inline-block;
+			padding: 30px 50px;
+			font-size: 20px;
+			cursor: pointer;
+		}
+		.title:hover{
+			background-color: khaki;
+			color: white;
+		}
+		.title:hover .ondrop{
+					display: block;
+		}
+		.ondrop{
+			display: none;
+			background-color: lightseagreen;
+			position: absolute;
+			margin-top: 30px;
+		}
+		.ondrop .btn{
+				display: block;
+				padding: 14px 24px;
+				text-decoration: none;
+		}
+		.btn:hover{
+			background-color:coral;
+			color: yellow;
+		}
+		.btn:hover #dv1{
+			display: block;
+		}
+		#dv1{
+			display: none;
+			position: absolute;
+			background-color: lightskyblue;
+
+		}
+		#dv1 .btn2{
+			display: block;
+			padding: 14px 20px;
+
+		}
+	 .btn2:hover{
+	 		background-color: hotpink;
+	 		color: red;
+	 }
+	</style>
+</head>
+<body>
+	<ul class="navbar">
+		<li class="title">Home</li>
+		<li class="title">Cars
+			<div class="ondrop">
+				<a href="#" class="btn">Normal</a>
+				<a href="#" class="btn">Sport
+					<ul id="dv1">
+						<li class="btn2">Ferari</li>
+						<li class="btn2">Bugati</li>
+						<li class="btn2">Naino</li>
+					</ul>
+				</a>
+				<a href="#" class="btn">Luxury</a>
+			</div>
+		</li>
+		<li class="title">Dog</li>
+
+	</ul>
+</body>
+</html>
+

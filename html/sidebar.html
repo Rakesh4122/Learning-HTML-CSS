@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .sidebar{
+            position: fixed;
+            height: 100%;
+            width: 200px;
+            background-color: lightgreen;
+        }
+        .sidebar h2{
+            text-align: center;
+            padding: 20px;
+            text-transform: uppercase;
+            background-color: #5ed45e;
+            color: #000000;
+        }
+        .sidebar ul{
+            list-style-type: none;
+        }
+        .sidebar ul li a{
+            display: block;
+            padding: 20px 20px;
+            text-decoration: none;
+            color: #000;
+            font-size: 20px;
+        }
+        .sidebar ul li a:hover{
+            background-color: rgb(90, 83, 83);
+            color: #fff;
+        }
+        .mainbar{
+            margin-left: 201px;
+            background-color: aqua;
+            padding: 20px;
+        }
+        .mainbar div{
+            height: 850px;
+            border: 1px solid #000;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>year</h2>
+        <ul>
+            <li><a href="#id-2014">2014</a></li>
+            <li><a href="#id-2015">2015</a></li>
+            <li><a href="#id-2016">2016</a></li>
+            <li><a href="#id-2017">2017</a></li>
+            <li><a href="#id-2018">2018</a></li>
+            <li><a href="#id-2019">2019</a></li>
+        </ul>
+    </div>
+     <main class="mainbar">
+        <div id="id-2014"></div>
+        <div id="id-2015"></div>
+        <div id="id-2016"></div>
+        <div id="id-2017"></div>
+        <div id="id-2018"></div>
+        <div id="id-2019"></div>
+     </main>  
+</body>
+</html>

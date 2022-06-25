@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS animation</title>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			position: relative;
+			animation-name: change;
+			animation-duration: 2s;
+			/*nimation-delay: 2s;*/
+			animation-iteration-count: 3;
+			/*animation-direction: alternate-reverse;*/
+			animation-fill-mode: both;
+		}
+		/*@keyframes change{
+			0% {background-color: red;}
+			25% {background-color: green;}
+			50% {background-color: black;}
+			100% {background-color: yellow;}
+			}*/
+
+		/*@keyframes change{
+				from {background-color: red;}
+				to {background-color: green;}
+			}*/
+
+			/*@keyframes change{
+				0% {background-color: red; left:0px; top:0px;}
+				25% {background-color: green; left:300px; top:0px;}
+				50% {background-color: blue; left:300px; top:300px;}
+				75% {background-color: black; left:0px; top:300px;}
+				100% {background-color: yellow; left:0px; top:0px;}
+			}*/
+
+			@keyframes change{
+				from{top: 0px; background-color: blue;}
+				to{top: 300px; background-color: yellow; }
+				
+			}	
+	</style>
+</head>
+<body>
+	<h2>CSS Animation</h2>
+	<div></div>
+</body>
+</html>
